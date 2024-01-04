@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Installs, configures, and starts the server
+apt-get update
+apt-get -y install nginx
+
+echo 'Hello World!' > /var/www/html/index.nginx-debian.html
+
+sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Tech-genius permanent;/" /etc/nginx/sites-available/default
+
+service nginx start
