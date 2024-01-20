@@ -2,7 +2,7 @@
 > DevOps
 > SysAdmin
 
-![image](https://github.com/RichardMiruka/alx-system_engineering-devops/assets/105627752/28d8bf44-ac00-4b39-8738-ccca4fffe891)
+![image](https://github.com/teh-genius/alx-system_engineering-devops/assets/105627752/28d8bf44-ac00-4b39-8738-ccca4fffe891)
 
  [What is a Child Process?](https://intranet.alxswe.com/concepts/110)
  
